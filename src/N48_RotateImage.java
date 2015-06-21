@@ -9,12 +9,7 @@
 
 public class N48_RotateImage {
 
-    public static void main(String[] args) {
-        int x[][] = { { 1, 2 }, { 3, 4 } };
-        rotate(x);
-    }
-
-    public static void rotate(int[][] matrix) {
+    public void rotate(int[][] matrix) {
         for (int x = 0; x < matrix.length / 2; x++) {
             for (int y = 0; y < matrix.length; y++) {
                 int tmp = matrix[x][y];
